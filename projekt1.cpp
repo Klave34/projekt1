@@ -2,6 +2,14 @@
 
 using namespace std;
 
+int silna(int n){
+	int sil = 0;
+	for(int i = 1; i <= n; i++){
+		sil *= i;	
+	}
+	return sil;
+}
+
 int main() {
     int a, b;
     cout << "Podaj liczbe calkowita ";
